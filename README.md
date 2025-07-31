@@ -1,12 +1,27 @@
-# React + Vite
+# Createxp Assignment – Client List UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive frontend UI built with **React** and **Tailwind CSS**, designed to display a list of clients with multi-sort functionality and persistent state using **localStorage**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔢 **Sortable Client Table** (multi-column)
+- 🎯 **Sort Panel** UI with drag-and-drop (via `@dnd-kit`)
+- 🔄 **Persistent Sorting** (stored in localStorage)
+- 🟢 **Visual Status Indicator** (active clients)
+- 🔢 **Sort Count Badge** on icon
+- 🌐 **Mock Data Display** for clients (name, email, etc.)
 
-## Expanding the ESLint configuration
+## 📦 Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- Tailwind CSS
+- @dnd-kit for drag-and-drop sorting
+- localStorage for persistence
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/maddie0501/Createxp-assignment.git
+cd Createxp-assignment
+npm install
+npm run dev
